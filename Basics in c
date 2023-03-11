@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdbool.h>
+int main(){
+printf("Hello C Language");
+int age=5;
+char name[]="Shikhar";
+float weight=70;
+bool isMarried=true;
+char gender='M';
+printf("%d\n",age);
+printf("%s\n",name);
+printf("%f\n",weight);
+printf("%d\n",isMarried);
+
+printf("%c\n",gender);
+
+
+
+
+}
+//variable cannot be started with numbers
+//we can use underscore
+//we can use any number with alphabet 
+// Datatypes in C 
+// oif we want to use boolean in C then we have to use #include<stdbool.h>
