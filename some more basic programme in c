@@ -1,0 +1,34 @@
+ WAP to Calculate the sum of numbers occuring in the multiplication table of 8
+/*
+#include <stdio.h>
+
+int main()
+{
+    int sumNumber = 0, i = 1;
+    do
+    {
+        sumNumber = sumNumber + 8 * i;
+        i++;
+    } while (i < 11);
+    printf("%d", sumNumber);
+    return 0;
+}
+*/
+
+// Q16 WAFP to print average of 3 numbers
+/*
+#include <stdio.h>
+void num3Avg(float, float, float);
+int main()
+{
+    float numOne, numTwo, numThree;
+    printf("Enter the numbers\n");
+    scanf("%f %f %f", &numOne, &numTwo, &numThree);
+    num3Avg(numOne, numTwo, numThree);
+    return 0;
+}
+
+void num3Avg(float a, float b, float c)
+{
+    float average = (a + b + c) / 3.0;
+    printf("The average of %.2f %.2f %.2f is %.2f\n", a, b, c, average);
