@@ -1,0 +1,71 @@
+
+//  if else problems
+// int main(){
+//     int n1,n2,n3;
+//     printf("Enter n1: ");
+//     scanf("%d",&n1);
+//     printf("Enter n2: ");
+//     scanf("%d",&n2);
+//     printf("Enter n3:");
+//     scanf("%d",&n3);
+
+//     if(n1>n2 && n1>n3){
+//         printf("n1 is greater ");
+
+//     }
+//     else if (n2>n3)
+//     {
+//         printf("n2 is greater");
+
+//     }
+//     else {
+//         printf("n3 is greater ");
+//     }
+
+// }
+
+// int main(){
+//     int num;
+//     printf("Enter a number to check even or odd: ");
+//     scanf("%d",&num);
+//     if (num%2==0){
+//         printf("Number is even");
+//     }
+//     else {
+//         printf("number is odd");
+//     }
+
+// }
+
+//  to check a leap year
+// int main(){
+//     int year;
+//     printf("Enter year:");
+//     scanf("%d",&year);
+
+//     if ((year%4==0 ) || (year%100!=0 && year%400==0))
+//     {
+//         printf("Leap year");
+
+//     }
+//     else{
+//         printf("Common year");
+//     }
+
+// }
+
+// to check alaphabets using conditional operator
+int main()
+{
+    int ch;
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+    if ((ch >= "a" && ch <= "z") || (ch >= "A" && ch <= "Z"))
+    {
+        printf("It is a alphabet");
+    }
+    else
+    {
+        printf("it is not alphabet");
+    }
+}
