@@ -1,0 +1,12 @@
+// #include <stdio.h>
+// int main()
+// {
+//     int start;
+//     printf("Enter starting number:\n");
+//     scanf("%d", &start);
+//     for (int i = start; i >= 1; i--)
+//     {
+//         printf("%d\n", i);
+//     }
+//     return 0;
+// }
