@@ -1,0 +1,31 @@
+// void fun(x){
+//     if (x==0){
+//         return ;
+//     }
+//     else {
+//         fun(x-1);
+//         printf("%d ",x);
+
+//     }
+
+// }
+// int main(){
+
+//     fun(3);
+// }
+// void fun(x){
+//     if (x==0){
+//         return ;
+//     }
+//     else {
+//         
+//         printf("%d ",x);
+//        fun(x-1);
+
+//     }
+
+// }
+// int main(){
+
+//     fun(3);
+// }
