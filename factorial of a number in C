@@ -1,0 +1,13 @@
+
+//  Fcatorialmof a number
+// int main(){
+//     int ans=1;
+//     int n;
+//     printf("Enter number: \n");
+//     scanf("%d",&n);
+//     while(n>0){
+//         ans=ans*n;
+//         n--;
+//     }
+//     printf("%d",ans);
+// }
